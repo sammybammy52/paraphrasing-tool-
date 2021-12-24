@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Headers - 9</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/style.css" />
+
+    
+    
+  </head>
+  <body>
+    <!-- Header Start -->
+    <header class="site-header">
+      <div class="wrapper site-header__wrapper">
+        <div class="site-header__start">
+          <a href="#" class="brand">Paraphrasing Tool</a>
+        </div>
+        <div class="site-header__middle">
+          <nav class="nav">
+            <button class="nav__toggle" aria-expanded="false" type="button">
+              menu
+            </button>
+            <ul class="nav__wrapper">
+              <li class="nav__item"><a href="#">Home</a></li>
+              <li class="nav__item"><a href="#">About</a></li>
+              <li class="nav__item"><a href="#">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="site-header__end">
+          <a class="button" href="#">Get Started</a>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <div class="container">
+
+        <div class="innerdiv">
+            <div class="row">
+                <div class="column side" style="background-color:white;">
+                  <textarea name="character-counter" id="textarea1" class="js-character-count" maxlength="1000" aria-describedby="textarea-info-1" placeholder="Enter the text you want to paraphrase..."></textarea>
+                  <i>Characters remaining: <span>1000</span></i>
+                  <br>
+                  <button class="Pbutton" id="myBtn">Paraphrase</button>
+
+                </div>
+                <div class="column middle" style="background-color:white;">
+                  <textarea id="result-area" class="result-page" maxlength="1000" ></textarea>
+                </div>
+
+            </div>
+        </div>
+        
+    </div>
+
+    
+    <script src="/app.js"></script>
+
+    
+
+    
+
+
+    
+  </body>
+</html>
