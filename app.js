@@ -88,7 +88,7 @@ btn.addEventListener("click", function () {
   xhr.open("POST", "https://rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com/rewrite");
   xhr.setRequestHeader("content-type", "application/json");
   xhr.setRequestHeader("x-rapidapi-host", "rewriter-paraphraser-text-changer-multi-language.p.rapidapi.com");
-  xhr.setRequestHeader("x-rapidapi-key", "d458156a25mshb70617c0efa9165p187b7bjsn7b829570b6b7");
+  xhr.setRequestHeader("x-rapidapi-key", "");
   
   xhr.send(data);
     
